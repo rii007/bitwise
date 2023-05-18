@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int x=5,k,a;
+    cin>>k;
+    a=x&(x<<k-1);   
+    cout<<(a);
+    printf("\n");
+    if(a==0){
+        printf("not bitset");
+    }
+    else{
+        printf("bitset");
+    }
+    
+}
